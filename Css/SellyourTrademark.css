@@ -266,12 +266,12 @@
     width:35%;
 }
 .form-box{
-    height: 63vh;
+    height: 60vh;
     width: 26%;
     background-color: #edeff2;
     float: right;
-    margin-top: -310px;
-    margin-right: 210px;
+    margin-top: -320px;
+    margin-right: 160px;
     border-radius: 5px;
     box-sizing: border-box;
     padding: 10px;
@@ -354,8 +354,8 @@ margin-top: 400px;
 }
 .number{
     float: right;
-    margin-right: 240px;
-    margin-top: -350px;
+    margin-right: 200px;
+    margin-top: -360px;
     color: #fff;
     font-size: 18px;
     padding-top: 10px;
