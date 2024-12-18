@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        #call-now-small-screen-banner,
+        #aero-img-mobile-container,
+        #small-screen-accounting-software-heading-line {
+          display: none;
+        }
+    
+        header {
+          display: flex;
+          justify-content: center;
+          background-color: #004CD2;
+          color: white;
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-top: 57px;
+          padding-bottom: 60px;
+          white-space: nowrap;
+        }
+    
+        header h1 {
+          font-size: 36px;
+          line-height: 40px;
+          font-weight: bold;
+          margin-bottom: 20px;
+          margin-top: 40px;
+        }
+    
+        #price {
+          font-size: 36px;
+          line-height: 40px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+    
+        #pricetag {
+          font-size: 32px;
+          line-height: 40px;
+          margin-bottom: 20px;
+    
+        }
+    
+        #pricestar {
+          font-size: 23px;
+          line-height: 40px;
+          margin-bottom: 20px;
+        }
+    
+        #center-statment-very-small-screen {
+          display: none;
+        }
+    
+        #center-statment {
+          margin-bottom: 20px;
+          margin-top: 20px;
+          line-height: 1.5384616;
+        }
+    
+        .center-statment-dot {
+          height: 3px;
+          width: 3px;
+          background-color: white;
+          border-radius: 50%;
+          display: inline-block;
+        }
+    
+        #professional {
+          margin: 10px;
+          font-style: italic;
+          text-align: center;
+          font-size: 14px;
+        }
+    
+        #aero-img-desktop-container img {
+          margin-top: 199px;
+          transform: rotate(14deg);
+          margin-left: -9px;
+    
+        }
+    
+        .icon-statements {
+          line-height: 18px;
+        }
+    
+        /*
+        form
+        {
+          width: 380px;
+          background-color: #EDEFF2;
+          color: black;
+          padding-left: 20px;
+          padding-right: 20px;
+          border-radius: 3px;
+          padding-top: 25px;
+          margin-top: 16px;
+          padding-bottom: 34px;
+        }
+        */
+        /*textarea, input, select
+        {
+          outline: none;
+          -webkit-appearance: none;
+          padding:12px;
+          border:none;
+          border-radius: 1px;
+        }*/
+    
+        /*input, select, textarea, button
+        {
+            font-family:inherit;
+            font-size: 13px;
+        }
+        */
+        #form-header {
+          text-align: center;
+          padding-bottom: 10px;
+        }
+    
+        #form-header p {
+          font-size: 18px;
+          line-height: 30px;
+          letter-spacing: 0.005em;
+          font-weight: bold;
+          margin-bottom: -9px;
+        }
+    
+        #form-img-yellow {
+          width: 80px;
+          height: 7px;
+        }
+    
+        #salutation {
+          background: white;
+          width: 20%;
+        }
+    
+        .form-block-elements {
+          display: block;
+          margin-top: 10px;
+          width: 99%;
+          background: white;
+        }
+    
+        #form-first-row {
+          display: inline-block;
+          width: 100%;
+        }
+    
+        #first_name {
+          width: 76%;
+          margin-left: 8px;
+        }
+    
+        #main-form-button:hover {
+          background: #d88f00;
+        }
+    
+        #main-form-button {
+          background-color: #FDA700;
+          color: white;
+          text-align: center;
+          cursor: pointer;
+          border: 1px solid transparent;
+          font-size: 13px;
+          line-height: 1.5384616;
+          border-radius: 3px;
+          -webkit-user-select: none;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          box-shadow: 0 2px 0 #a36b00;
+          padding: 11px;
+          border-radius: 2px;
+          width: 100%;
+        }
+    
+        #form-button-container {
+          text-align: center;
+          margin-top: 10px;
+        }
+    
+        section {
+          text-align: center;
+        }
+    
+        #free-services-main-container {
+          border: 1px solid white;
+          border-radius: 2px;
+        }
+    
+        #absolutely-free-container {
+          display: flex;
+          justify-content: space-around;
+          padding: 15px;
+        }
+    
+        #free-section-plus-sign {
+          padding-top: 1px;
+          /* margin-right: 13px;
+              margin-left: 9px;*/
+          font-size: 19px !important;
+        }
+    
+        #free-section-or-conjuction {
+          /*  padding-left: 10px;*/
+          padding-top: 1px;
+          font-size: 19px !important;
+        }
+    
+        #absolutely-free-container img {
+            width: 20px;
+          border-radius: 100%;
+          background-color: white;
+        }
+    
+        #absolutely-free-container p {
+          font-size: 12px;
+          margin-top: 10px;
+          text-align: center;
+        }
+    
+    
+        #free-container-box-header {
+          background-color: #fff;
+          color: #004CD2;
+        }
+    
+    
+        #free-container-box-header {
+          text-align: center;
+          padding: 5px;
+          font-size: 13px;
+          font-weight: bold;
+        }
+    
+        .call-a-contact-number {
+          text-decoration: none;
+          border: none;
+          color: white;
+          cursor: pointer;
+        }
+    
+        #free-section-middle-one {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+    
+        @media screen and (max-width: 1230px) {
+          #aero-img-desktop-container img {
+            width: 300px;
+            transform: rotate(23deg);
+            margin-top: 215px;
+          }
+    
+          #free-section-middle-one {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+    
+        }
+    
+        @media screen and (max-width: 1100px) {
+          #aero-img-desktop-container {
+            display: none;
+          }
+    
+          #header-info-part {
+            margin-right: 100px;
+          }
+        }
+    
+        @media screen and (max-width: 930px) {
+          #header-info-part {
+            margin-right: 50px;
+          }
+        }
+    
+        @media screen and (max-width: 880px) {
+    
+          #aero-img-desktop-container,
+          #aero-img-desktop-container img,
+          header,
+          section,
+          #header-info-part,
+          #call-now-banner {
+            padding: 0;
+            margin: 0;
+          }
+    
+          #large-screen-accounting-software-heading-line {
+            display: none;
+          }
+    
+          #free-services-main-container {
+            border: none;
+          }
+    
+          #professional {
+            display: none;
+          }
+    
+          header {
+            flex-direction: column;
+            padding-bottom: 20px;
+          }
+    
+          header h1 {
+            font-size: 30px;
+          }
+    
+          #pricetag,
+          #price,
+          header s {
+            font-size: 25px;
+          }
+    
+          #free-section-middle-one {
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+    
+          #free-section-plus-sign {
+            padding-left: 0px;
+            padding-right: 0px;
+            font-size: 13px !important;
+            font-weight: bold;
+          }
+    
+          #free-section-or-conjuction {
+            padding-left: 0px;
+            padding-right: 0px;
+            font-weight: bold;
+            font-size: 13px !important;
+    
+          }
+    
+          #small-screen-accounting-software-heading-line {
+            display: block;
+          }
+    
+          #free-services-main-container img {
+            /* width: 36px;*/
+          }
+    
+    
+          #free-section-middle-one {
+            margin-left: 20px;
+            margin-right: 20px;
+          }
+    
+          #center-statment {
+            font-size: 14px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+          }
+    
+    
+          #free-container-box-header {
+            background-color: #004CD2;
+            color: white;
+            font-weight: normal !important;
+            letter-spacing: 0.025em;
+          }
+    
+          #absolutely-free-container {
+            display: flex;
+            justify-content: center;
+          }
+    
+          #call-now-banner {
+            display: none;
+          }
+    
+          #call-now-small-screen-banner {
+            display: block;
+            font-size: 13px;
+          }
+    
+          form {
+            width: 80vw;
+            margin: auto;
+            margin-top: 20px;
+          }
+    
+          header h1 {
+            margin-bottom: 0px;
+            margin-top: 20px;
+          }
+        }
+    
+        @media screen and (max-width: 650px) {
+          header h1 {
+            font-size: 25px;
+            margin-bottom: -6px;
+          }
+    
+          #pricetag,
+          #price,
+          header s {
+            font-size: 20px;
+          }
+    
+          #center-statment {
+            font-size: 12px;
+          }
+    
+          #aero-img-mobile-container {
+            display: block;
+            margin-left: 80%;
+            margin-top: -150px;
+          }
+    
+          #aero-img-mobile-container img {
+            position: relative;
+            right: 26px;
+            height: 210px;
+            width: 80px;
+            transform: rotate(-5deg);
+            margin-top: -25px;
+    
+          }
+    
+          form {
+            width: 90vw;
+          }
+    
+    
+          #free-container-box-header {
+            font-size: 13px;
+            font-weight: normal;
+          }
+    
+          #center-statment {
+            font-size: 12px !important;
+          }
+    
+          #call-now-small-screen-banner {
+            font-size: 13px;
+            margin-top: -30px;
+          }
+        }
+    
+        @media screen and (max-width: 520px) {
+          #free-section-middle-one {
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px
+          }
+    
+          #free-section-plus-sign {
+            padding-left: 0px;
+            padding-right: 0px;
+    
+          }
+    
+          #free-section-or-conjuction {
+            /* padding-left: 10px;
+              padding-right: 20px;
+            */
+          }
+        }
+    
+        @media screen and (max-width: 400px) {
+          #free-section-middle-one {
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+    
+          #free-section-plus-sign {
+            padding-left: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+          }
+    
+          #free-section-or-conjuction {
+            padding-left: 0px;
+            padding-right: 0px;
+          }
+        }
+    
+        @media only screen and (max-width: 550px) {
+          #aero-img-mobile-container img {
+            position: relative;
+            right: 19px;
+            width: 77px;
+            transform: rotate(0deg);
+            margin-top: -20px;
+    
+          }
+    
+          #call-now-small-screen-banner {
+            font-size: 12px;
+            margin-top: -28px;
+          }
+    
+          #free-section-middle-one {
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+        }
+    
+        @media only screen and (max-width: 397px) {
+    
+          #aero-img-mobile-container img {
+            right: -5px;
+            width: 51px;
+            height: 197px;
+            transform: rotate(4deg);
+            margin-top: -18px;
+          }
+    
+        }
+    
+        @media only screen and (max-width: 371px) {
+    
+          #aero-img-mobile-container img {
+            right: -5px;
+            width: 51px;
+            height: 197px;
+            transform: rotate(4deg);
+            margin-top: -18px;
+          }
+    
+        }
+    
+        @media only screen and (max-width: 321px) {
+    
+          #aero-img-mobile-container img {
+            right: -5px;
+            width: 46px;
+            height: 178px;
+            transform: rotate(5deg);
+            margin-top: 1px;
+          }
+    
+        }
+      </style>
+    
+    
+    
+      <style type="text/css">
+        /* Onscroll triggers inline-form on top of page for small and big screen */
+    
+        @media screen and (min-width: 801px) {
+    
+          #floatingEnquiryForm #salutation {
+            padding-top: 8px;
+          }
+    
+          .on-scroll-desktop {
+            width: 55%;
+            font-size: 12px;
+            margin-top: -5px;
+          }
+    
+          #onscroll-desktop-form-button:hover {
+            background: #d88f00;
+            border-color: #d88f00;
+          }
+    
+          #form-inline-container {
+            position: fixed;
+            top: -100px;
+            transition: top 0.3s;
+            width: 100%;
+            z-index: 999;
+          }
+    
+          #floatingEnquiryForm {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: #004CD2;
+            padding: 20px;
+            width: 100%;
+            margin-top: 0px;
+          }
+    
+          #floatingEnquiryForm.bannerSelect {
+            width: 45%;
+            padding-top: 7px;
+            padding-left: 11px;
+          }
+    
+          .form-input {
+            display: block;
+            border-width: 1px 0;
+            border-color: transparent;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            width: 100%;
+            height: 38px;
+            padding-left: 15px !important;
+            font-size: 13px !important;
+            line-height: 1.5384616;
+            color: #333333;
+            background-image: none;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          }
+    
+          #onscroll-desktop-form-button {
+            background-color: #FDA700;
+            height: 40px;
+            margin-top: -1px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            box-shadow: 0 2px 0 #a36b00;
+            padding: 3px;
+            border-radius: 2px;
+            color: white;
+          }
+    
+          #onscroll-desktop-form-button:after {
+            content: '';
+            background: url(images/right_arrow_submit_button.png);
+            /* margin-left: 145px;*/
+            margin-left: 10px;
+            margin-top: 3px;
+            display: inline-block;
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            z-index: 1;
+            pointer-events: none;
+            border: none;
+          }
+    
+          #mobile-view-onscroll-button {
+            display: none;
+          }
+        }
+    
+        @media screen and (max-width: 800px) {
+          #form-inline-container {
+            display: none;
+          }
+    
+          #mobile-view-onscroll-button {
+            position: fixed;
+            top: -100px;
+            z-index: 999 !important;
+            transition: top 0.3s;
+            width: 100%;
+            height: 63px;
+            background-color: #004CD2;
+            padding: 8px;
+            text-align: center;
+          }
+    
+          #onscroll-button {
+            /*background-color: #FDA700;
+              width: 100%;
+              height: 45px;
+              color: #fff;
+        */
+            box-shadow: 0 3px 0 #a36b00;
+            background: #fda700;
+            border: 1px solid #fda700;
+            color: #fff;
+            font-size: 15px;
+            font-weight: 700;
+            height: 45px;
+            text-transform: uppercase;
+            width: 100%;
+            padding-top: 2px;
+            border-radius: 2px;
+            letter-spacing: 1px;
+          }
+    
+          #onscroll-button:after {
+            content: '';
+            background: url(images/right_arrow_submit_button.png);
+            /* margin-left: 145px;*/
+            margin-left: 10px;
+            margin-top: 3px;
+            display: inline-block;
+            background-size: contain !important;
+            background-repeat: no-repeat !important;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            z-index: 1;
+            pointer-events: none;
+            border: none;
+          }
+        }
+      </style>
+</head>
+<body>
+  <!--  <header>
+        <section id="header-info-part">
+          <h1>ISO Certification</h1>
+          <h2><span id="pricetag">@ Rs. </span><span id="price">4,999 </span><sup id="pricestar">*</sup>
+          </h2>
+          <p id="center-statment">In 3 days &nbsp; <span class="center-statment-dot"></span> &nbsp; From Any where &nbsp;
+            <span class="center-statment-dot"></span> &nbsp; At a Single Click </p>
+          <div id="free-services-main-container">
+            <p id="free-container-box-header">India's #1 Legal Services Platform</p>
+            <div id="absolutely-free-container">
+              <div class="free-section">
+                <img src="../../Images/img-top-1.png" alt="4.8/5 Customer Review icon">
+                <p class="icon-statements">
+                  4.8/5
+                  <br />
+                  Customer Review
+                </p>
+              </div>
+              <p id="free-section-plus-sign">+</p>
+              <div class="free-section" id="free-section-middle-one">
+                <img src="images/900+-cities-served.svg" alt="900+ Cities Served icon">
+                <p class="icon-statements">
+                  900+
+                  <br>
+                  Cities Served
+                </p>
+              </div>
+              <p id="free-section-or-conjuction">+</p>
+              <div class="free-section">
+                <img src="images/mobile-app.svg" alt="1 Mobile App Convenience">
+                <p id="large-screen-accounting-software-heading-line" class="icon-statements">
+                  #1 Mobile
+                  <br />App Convenience
+                </p>
+                <p id="small-screen-accounting-software-heading-line" class="icon-statements">
+                  #1 Mobile
+                  <br />App Convenience
+                </p>
+              </div>
+            </div>
+          </div>
+          <p id="professional">*Professional Fees. &nbsp; EMI Option Available.
+          </p>
+        </section>
+        <div id="aero-img-desktop-container">
+          <img src="images/arrow-banner-desktop1.png" alt="banner arrow">
+        </div>
+        <div id="aero-img-mobile-container">
+          <img src="images/arrow_services-banner-mobile.png" alt="banner arrow">
+        </div>
+        
+
+       
+      </header>-->
+</body>
+</html>

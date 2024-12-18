@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Css/index.css">
+    <link rel="stylesheet" href="../../Css/IOSCertification.css">
+    <link rel="'stylesheet" href="../../Pages/GrowBusiness/GSTRegistration.html">
+
+    <style>
+        .faq-container {
+            width: 100%;
+            height: 30vh;
+            background-color: #f4f4f4e2;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        #final-deliverable-main-container {
+            border-color: #F4F4F4;
+            color: #1A1A1A;
+            padding-top: 20px;
+        }
+
+        #final-deliverable-flex-container {
+            display: flex;
+            width: 100%;
+        }
+
+        #final-deliverable-main-container h2:after {
+            content: '';
+            background: #FFD712;
+            width: 35px;
+            height: 4px;
+            display: block;
+            margin: 10px auto 25px;
+        }
+
+        .final-deliverable-section {
+            /*flex-grow: 1;*/
+            font-size: 14px;
+            margin: -2px;
+            line-height: 18px;
+            vertical-align: middle;
+            display: inline-block;
+            margin-bottom: 10px;
+            min-height: 32px;
+            padding: 0 36px;
+        }
+
+        #final-deliverable-flex-container .final-deliverable-section .subheadingtitle {
+            font-size: 16px;
+            height: 50px;
+            font-weight: bold;
+            text-align: Left;
+        }
+
+        .final-deliverable-section img {
+            height: 15px;
+            width: 15px;
+        }
+
+        #final-deliverable-main-container p {
+            line-height: 30px;
+            font-size: 14px;
+            min-height: 40px;
+            color: #333333;
+            line-height: 1.5384616;
+            font-weight: 400;
+            word-wrap: break-word;
+            text-indent: -24px;
+        }
+
+        @media screen and (min-width: 701px) {
+            #final-deliverable-main-container h2 {
+                font-size: 15px;
+                line-height: 1.5384616;
+                font-weight: 400;
+                text-align: center;
+                font-size: 27px;
+                line-height: 45px;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                font-weight: 700;
+                padding: 6px 0;
+            }
+
+            #final-deliverable-main-container {
+                padding-left: 100px;
+                padding-right: 100px;
+                padding-bottom: 21px;
+            }
+
+            #final-deliverable-flex-container {
+                flex-wrap: nowrap;
+                justify-content: space-around;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            #final-deliverable-main-container h2 {
+                font-size: 19px;
+                line-height: 25px;
+                width: 75%;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            #final-deliverable-flex-container {
+                flex-wrap: wrap;
+                padding-bottom: 20px;
+                margin-right: 30px;
+                margin-left: 30px;
+                width: auto;
+            }
+
+            .final-deliverable-section {
+                font-size: 14px;
+                line-height: 18px;
+                min-height: 32px;
+                padding-top: 0px;
+                padding-right: 36px;
+                padding-bottom: 0px;
+                padding-left: 36px;
+            }
+        }
+
+        @media screen and (max-width: 360px) {
+            #final-deliverable-main-container p {
+                line-height: 30px;
+                font-size: 13px;
+                min-height: 40px;
+                color: #333333;
+                line-height: 1.5384616;
+                font-weight: 400;
+                word-wrap: break-word;
+                text-indent: -24px;
+            }
+        }
+
+        .msme-card-container {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 40px;
+        }
+
+        .msme-card {
+            padding: 10px 20px;
+        }
+
+        .msme-card h2 {
+            font-size: 20px;
+            padding: 10px 15px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .msme-card p {
+            font-size: 15px;
+            padding: 5px 15px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .msme-card-img {
+            width: 25%;
+            border-radius: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .hrs {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 60px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="../../index.html"> <img class="nav-logo" src="../../Images/logo.jpeg"></a>
+        <ul class="nav-list">
+
+
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">START BUSINESS</a>
+                <div class="dropdown-content">
+                    <a href="../StartBusiness/PrivateLimitedCompany.html">Private Limited Company</a>
+                    <a href="../StartBusiness/OnePersonCompany.html">One Person Company</a>
+                    <a href="../StartBusiness/LimitedLiabilityPartnership.html">Limited Liability Partnership</a>
+                    <a href="../StartBusiness/StartupIncorporation.html">Startup Incorporation</a>
+                    <div class="verticalline">
+                        <a href="../StartBusiness/CompanyNameSearch.html">Company Name Search</a>
+                        <a href="../StartBusiness/StartupIndiaServices.html">Startup India Services</a>
+                        <a href="../StartBusiness/PublicLimitedCompany.html">Public Limited Company</a>
+                        <a href="../StartBusiness/Section8Company.html">NGO/Section 8 Company</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">PROTECT BUSINESS</a>
+                <div class="dropdown-content">
+                    <a href="../ProtectBusiness/TrademarkRegistration.html">Trademark Registration</a>
+                    <a href="../ProtectBusiness/ReplytoTrademarkObjection.html">Reply to Trademark Objection</a>
+                    <a href="../ProtectBusiness/RenewyourTrademark.html">Renew your Trademark</a>
+                    <a href="../ProtectBusiness/LicenseyourTrademark.html">License your Trademark</a>
+                    <div class="verticalline">
+                        <a href="../ProtectBusiness/TrademarkSearch.html">Trademark Search</a>
+                        <a href="../ProtectBusiness/SellyourTrademark.html">Sell your Trademark</a>
+                        <a href="../ProtectBusiness/CopyrightRegistration.html">Copyright Registration</a>
+                        <a href="../ProtectBusiness/ReplytoCopyrightObjection.html">Reply to Copyright
+                            Objection</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">MANAGE BUSINESS</a>
+                <div class="dropdown-content1">
+                    <a href="../ManageBusiness/Pvt.Ltd.ROCComplianceAMC.html">Pvt. Ltd. ROC Compliance AMC</a>
+                    <a href="../ManageBusiness/OPCROCComplianceAMC.html">OPC ROC Compliance AMC</a>
+                    <a href="../ManageBusiness/LLPROCComplianceAMC.html">LLP ROC Compliance AMC</a>
+                    <a href="../ManageBusiness/DIR3DINKYCFiling.html">DIR3 DIN KYC Filing</a>
+                    <a href="../ManageBusiness/ROCreturnilingforPvt.Ltd.html">ROC Return Filing for Pvt. Ltd.</a>
+                    <a href="../ManageBusiness/ROC Return Filing for OPC.html">ROC Return Filing for OPC</a>
+                    <a href="../ManageBusiness/ROCReturnFilingforLLP.html">ROC Return Filing for LLP</a>
+                    <div class="verticalline1">
+                        <a href="../ManageBusiness/AppointmentofDirector.html">Appointment of Director</a>
+                        <a href="../ManageBusiness/ResignationofDirector.html">Resignation of Director</a>
+                        <a href="../ManageBusiness/TransferofShares.html">Transfer of Shares</a>
+                        <a href="../ManageBusiness/IncreasingCapital.html">Increasing Capital</a>
+                        <a href="../ManageBusiness/ClosureofCompany.html">Closure of Company</a>
+                        <a href="../ManageBusiness/ClosureofOPC.html">Closure of OPC</a>
+                        <a href="../ManageBusiness/ClosureofLLP.html">Closure of LLP</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">GROW BUSINESS</a>
+                <div class="dropdown-content2">
+                    <a href="../GrowBusiness/ISOCertification.html">ISO Certification</a>
+                    <a href="../GrowBusiness/GSTRegistration.html">GST Registration</a>
+                    <a href="../GrowBusiness/MSMERegistration.html">MSME / SSI Registration</a>
+                    <a href="../GrowBusiness/ListofindianCompanies.html">List of Indian Companies</a>
+                    <a href="../GrowBusiness/ListofIndianLLPs.html">List of Indian LLPs</a>
+                    <a href="../GrowBusiness/ListofIndianTrademarks.html">List of Indian Trademarks</a>
+                </div>
+            </li>
+            <p class="addeditems">
+                <a class="add-item" href="../Blog.html">Blog</a><br>
+                <a class="add-item" href="../Review.html">Review</a><br>
+                <a class="add-item" href="../Contact.html">Contact</a>
+            </p>
+        </ul>
+
+    </nav>
+    <div class="head">
+        <h2>MSME Registration<br>
+            &nbsp;&nbsp; @ Rs. 1,999 *</h2>
+        <h5>In 3 days&nbsp;&nbsp;.&nbsp;&nbsp;From Any where&nbsp;&nbsp;.&nbsp; &nbsp;At a Single Click</h5>
+        <img class="arrow-img" src="../../Images/arrow-banner-desktop1-removebg-preview.png">
+
+        <div class="box-container1">
+            <div class="box-2">
+            </div>
+            <h3 class="box-text">India's #1 Legal Services Platform</h3>
+
+            <div class="box-img-container">
+
+                <div class="box-img-card">
+                    <img class="box-img" src="../../Images/img-top-1.png">
+
+                    <p class="box-text">4.8/5<br>
+                        Customer Review
+
+                    </p>
+                </div>
+                <h5 class="plus">+</h5>
+                <div class="box-img-card">
+                    <img class="box-img" src="../../Images/img-top-2.png">
+                    <p class="box-text">4.8/5<br>
+                        Customer Review
+
+                    </p>
+                </div>
+                <h5 class="plus">+</h5>
+                <div class="box-img-card">
+                    <img class="box-img" src="../../Images/img-to-3.png">
+                    <p class="box-text">4.8/5<br>
+                        Customer Review
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <p class="card-last-text">*Professional Fees. EMI Option Available.</p>
+        <hr class="hr-2">
+
+        <div class="form-container">
+            <h2>Get Quote Instantly in a Minute</h2>
+
+            <select id="gender" name="mr">
+                <option value="Mr.">Mr.</option>
+                <option value="Ms.">Ms.</option>
+                <option value="Mrs.">Mrs.</option>
+
+            </select>
+            <input type="text" id="inputfield1" placeholder="Full name" required>
+            <input type="text" id="inputfield2" placeholder="E-mail Id" required>
+            <input type="text" id="inputfield2" placeholder="Mobile">
+            <input type="text" id="inputfield2" placeholder="City">
+            <input type="text" id="inputfield2" placeholder="Looking for*" required>
+            <button class="btn1" type="button">GET STARTED NOW</button>
+
+        </div>
+    </div>
+
+    <div class="head2-container">
+
+        <div class="card-container-1">
+
+            <div class="card-1">
+                <img class="card1-img" src="../../Images/trophy.png">
+                <p>Forbes Modern India<br>
+                    Games Changer 2020
+                </p>
+            </div>
+
+            <div class="card-2">
+                <img class="card1-img" src="../../Images/trophy.png">
+                <p>15,752+ Five Star<br>
+                    Google Reviews
+                </p>
+            </div>
+
+            <div class="card-3">
+                <img class="card1-img" src="../../Images/trophy.png">
+                <p>Serviced 180,000+<br>
+                    Startups Across India
+                </p>
+            </div>
+
+            <div class="card-4">
+                <img class="card1-img" src="../../Images/trophy.png">
+                <p>Saved Crores of Rupees<br>
+                    & Millions of Startup Hours
+                </p>
+            </div>
+
+            <div class="card-5">
+                <img class="card1-img" src="../../Images/trophy.png">
+                <p>Saved Crores of Rupees<br>
+                    & Millions of Startup Hours
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="work-container">
+        <h1 class="heading-1">HERE'S HOW IT WORKS</h1>
+        <img class="hr-1" src="../../Images/minus.png">
+
+        <div class="works-cards-container">
+            <div class="works-cards">
+                <img class="work-img" src="../../Images/img-a.png">
+                <h3>1. Fill Form</h3>
+                <p>Simply fill the above form<br>
+                    to get started.</p>
+            </div>
+            <h1>></h1>
+            <div class="works-cards">
+                <img class="work-img" src="../../Images/img-b.png">
+                <h3>2. Call to discuss</h3>
+                <p>Our ISO Consultant will<br>
+                    connect with you & prepare<br>
+                    documents.</p>
+            </div>
+            <h1>></h1>
+            <div class="works-cards">
+                <img class="work-img" src="../../Images/img-c.png">
+                <h3>3. Get ISO</h3>
+                <p>Get your Company<br>
+                    ISO Certified</p>
+            </div>
+
+        </div>
+
+    </div>
+    <h1 class="heading-1">BENEFITS OF MSME REGISTRATION</h1>
+    <img class="hr-1" src="../../Images/minus.png">
+
+    <div class="msme-card-container">
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-1.png">
+            <h2>100% Collateral-Free Automatic Loans</h2>
+            <p>12 Months Moratorium/Waiver on Loan<br>
+                Repayment.Fully covered under Govt. <br>
+                guarantee. No guarantee fee will be charged.<br>
+                Scheme available till 31st Oct, 2020.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-2.png">
+            <h2>Rs. 50,000 cr. Equity Funding for MSMEs</h2>
+            <p>Govt. will provide equity funding/invest in<br>
+                shares of MSMEs with growth potential through<br>
+                Fund of Funds scheme.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-3.png">
+            <h2>Support for Listing at Stock Exchanges</h2>
+            <p>Govt. will help to expand MSME size as well as<br>
+                capacity,will encourage MSMEs to get listed on <br>
+                main board of Stock Exchanges.</p>
+
+        </div>
+
+    </div>
+    <hr class="hrs">
+
+    
+    <div class="msme-card-container">
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-4.png">
+            <h2>100% Collateral-Free Automatic Loans</h2>
+            <p>12 Months Moratorium/Waiver on Loan<br>
+                Repayment.Fully covered under Govt. <br>
+                guarantee. No guarantee fee will be charged.<br>
+                Scheme available till 31st Oct, 2020.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-5.png">
+            <h2>Rs. 50,000 cr. Equity Funding for MSMEs</h2>
+            <p>Govt. will provide equity funding/invest in<br>
+                shares of MSMEs with growth potential through<br>
+                Fund of Funds scheme.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-6.png">
+            <h2>Support for Listing at Stock Exchanges</h2>
+            <p>Govt. will help to expand MSME size as well as<br>
+                capacity,will encourage MSMEs to get listed on <br>
+                main board of Stock Exchanges.</p>
+
+        </div>
+
+    </div>
+    <hr class="hrs">
+
+    <div class="msme-card-container">
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-7.png">
+            <h2>100% Collateral-Free Automatic Loans</h2>
+            <p>12 Months Moratorium/Waiver on Loan<br>
+                Repayment.Fully covered under Govt. <br>
+                guarantee. No guarantee fee will be charged.<br>
+                Scheme available till 31st Oct, 2020.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-9.png">
+            <h2>Rs. 50,000 cr. Equity Funding for MSMEs</h2>
+            <p>Govt. will provide equity funding/invest in<br>
+                shares of MSMEs with growth potential through<br>
+                Fund of Funds scheme.</p>
+
+        </div>
+
+        <div class="msme-card">
+            <img class="msme-card-img" src="../../Images/msme-8.png">
+            <h2>Support for Listing at Stock Exchanges</h2>
+            <p>Govt. will help to expand MSME size as well as<br>
+                capacity,will encourage MSMEs to get listed on <br>
+                main board of Stock Exchanges.</p>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="final-deliverable-main-container">
+        <h1 class="heading-1">DOCUMENT REQUIRED FOR MSME REGISTRATION</h1>
+        <img class="hr-1" src="../../Images/minus.png">
+        <div id="final-deliverable-flex-container">
+            <div class="final-deliverable-section">
+                <p class="subheadingtitle">Pvt. Ltd. /Public Ltd./OPC </p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Company PAN card
+
+                </p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;MOA, AOA & Incorporation
+                    Certificate
+                </p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Company Address Proof
+                </p>
+            </div>
+            <div class="final-deliverable-section">
+                <p class="subheadingtitle">LLP & Partnership Firm</p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Firm PAN card
+
+                </p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;LLP Agreement/
+                    Partnership deed
+
+                </p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Firm Address Proof
+
+                </p>
+            </div>
+            <div class="final-deliverable-section">
+                <p class="subheadingtitle">Proprietorship Firm</p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Proprietor&#39;s PAN
+                    card
+
+                </p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Shop Act / Ghumasta
+                    License
+
+                </p>
+                <p>
+                    <img src="../../Images/check-mark.png" alt="checked icon">&nbsp;&nbsp;&nbsp;Address proof of Firm
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="why-container">
+        <h1>WHY LEGAL SEARCH</h1>
+        <img class="hr-1" src="../../Images/minus.png">
+
+        <div class="round-card-container-1">
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img1.png">
+                <h2>Forbes</h2>
+                <p>Modern India Game<br>
+                    Changer 2020 List</p>
+            </div>
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img2.png">
+                <h2>15,752+</h2>
+                <p>Five Star<br>
+                    Google Reviews</p>
+            </div>
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img3.png">
+                <h2>180,000+</h2>
+                <p>Startups Served<br>
+                    Across India</p>
+            </div>
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img4.png">
+                <h2>Record</h2>
+                <p>of Highest Company<br>
+                    & Trademark Filings</p>
+            </div>
+
+        </div>
+
+        <div class="round-card-container-1">
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img-5.png">
+                <h2>14+</h2>
+                <p>Years of Startup<br>
+                    Centric Legal Expertise</p>
+            </div>
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img6.png">
+                <h2>3,000+</h2>
+                <p>Filings<br>
+                    Every Month</p>
+            </div>
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img7.png">
+                <h2>100+</h2>
+                <p>Team Members<br>
+                    at your service</p>
+            </div>
+
+            <div class="cards-r">
+                <img class="r-img" src="../../Images/img8.png">
+                <h2>Best</h2>
+                <p>Mobile App<br>
+                    Convenience</p>
+            </div>
+
+        </div>
+    </div>
+
+    <img class="capture4" src="../../Images/Capture4.PNG">
+    <div class="capture-container">
+        <div class="slide img">
+            <img class="user-img" src="../../Images/profile (1).png" alt="Image 1">
+            <h2 class="user-name">Mr. Bikash Garabadau</h2>
+            <p class="user-info">Founder, Cosmo Trade<br>
+                Bhubaneswar, Odisha</p>
+
+            <img class="coma" src="../../Images/up-coma-removebg-preview.png">
+            <p class="comment">It was an excellent experience working with Startupwala Group during the OPC
+                registration of Appiuss Software.<br>
+                All my queries were promptly addressed through emails and phone calls, making the entire process
+                smooth. The follow-up<br>
+                was exceptional, ensuring that everything progressed without any issues. The incorporation process
+                itself was seamless,<br>
+                and the professionalism with which Startupwala handled the entire procedure was impressive. Their
+                approach to delivering<br>
+                services is top-notch, and I’m thoroughly satisfied with the overall experience.<br>
+            </p>
+            <img class="coma-down" src="../../Images/down-coma-removebg-preview.png">
+
+        </div>
+    </div>
+
+    <h1 class="heading-5">LET'S CLEAR ALL THE DOUBTS!</h1>
+    <img class="hr-1" src="../../Images/minus.png">
+    <div class="faq-container">
+
+        <button class="accordion">1. What are the benefits of GST in India?</button>
+        <div class="panel">
+            <p>
+                Many Indirect taxeslike VAT, Excise Duty, Service Tax, CST, Import- Export, Octroi, Luxury Tax and<br>
+                Entertainment Tax is now only require a GST registration. This will result in less compliances and
+                help<br>
+                businesses to focus more into their business.</p>
+        </div>
+
+        <button class="accordion">2. What are the GST Rates in India?</button>
+        <div class="panel">
+            <p>The GST rate will depend on the type of goods and services. Currently, the slab rates are 5%, 12%,
+                18%<br>
+                and 28%. Gold and rough diamonds do not currently fall under GST and will be taxed at 3% and 0.25%</p>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="../../Js/IOSCertificate.js"></script>
+
+</body>
+
+</html>

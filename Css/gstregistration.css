@@ -1,0 +1,524 @@
+#final-deliverable-main-container 
+{
+    border-color: #F4F4F4;
+    color: #1A1A1A;
+    padding-top: 20px;
+}
+
+#final-deliverable-flex-container 
+{
+    display: flex;
+    width: 100%;
+}
+
+#final-deliverable-main-container h2:after 
+{
+    content: '';
+    background: #FFD712;
+    width: 35px;
+    height: 4px;
+    display: block;
+    margin: 10px auto 25px;
+}
+
+.final-deliverable-section 
+{
+    /*flex-grow: 1;*/
+    font-size: 14px;
+    margin: -2px;
+    line-height: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-bottom: 10px;
+    min-height: 32px;
+    padding: 0 36px;
+}
+#final-deliverable-flex-container .final-deliverable-section .subheadingtitle 
+{
+    font-size: 16px;
+    height: 50px;
+    font-weight: bold;
+    text-align: Left;
+}
+.final-deliverable-section img 
+{
+    height: 15px;
+    width: 15px;
+}
+
+#final-deliverable-main-container p 
+{
+    line-height: 30px;
+    font-size: 14px;
+    min-height: 40px;
+    color: #333333;
+    line-height: 1.5384616;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-indent: -24px;
+}
+
+@media  screen and (min-width: 701px) 
+{
+    #final-deliverable-main-container h2 
+    {
+        font-size: 15px;
+        line-height: 1.5384616;
+        font-weight: 400;
+        text-align: center;
+        font-size: 27px;
+        line-height: 45px;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 6px 0;
+    }
+
+    #final-deliverable-main-container 
+    {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 21px;
+    }
+
+    #final-deliverable-flex-container 
+    {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+}
+@media  screen and (max-width: 700px) 
+{
+    #final-deliverable-main-container h2 
+    {
+        font-size: 19px;
+        line-height: 25px;
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    #final-deliverable-flex-container 
+    {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+        width: auto;
+    }
+
+    .final-deliverable-section
+    {
+        font-size: 14px;
+        line-height: 18px;
+        min-height: 32px;
+        padding-top: 0px;
+        padding-right: 36px;
+        padding-bottom: 0px;
+        padding-left: 36px;
+    }
+}
+
+@media  screen and (max-width: 360px) 
+{
+    #final-deliverable-main-container p 
+    {
+        line-height: 30px;
+        font-size: 13px;
+        min-height: 40px;
+        color: #333333;
+        line-height: 1.5384616;
+        font-weight: 400;
+        word-wrap: break-word;
+        text-indent: -24px;
+    }
+}
+
+#gst-registration
+{
+   
+        background-color: #F4F4F4;
+border-color: #F4F4F4;
+color: #1A1A1A;
+padding-top: 20px;
+}
+
+#gst-registration h2:after 
+{
+    content: '';
+    background: #FFD712;
+    width: 35px;
+    height: 4px;
+    display: block;
+    margin: 10px auto 2px;
+}
+
+.gst-registration-content img 
+{
+    width: 95px;
+    border-radius: 100%;
+    background-color: #F4F4F4;
+    border-color: #F4F4F4;
+    color: #1A1A1A;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+@media  screen and (min-width: 701px) 
+{
+    #gst-registration 
+    {
+        padding-bottom: 57px;
+    }
+
+    #gst-registration h2 
+    {
+        font-size: 15px;
+        line-height: 1.5384616;
+        font-weight: 400;
+        text-align: center;
+        font-size: 27px;
+        line-height: 45px;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 0;
+        flex-grow: 1;
+    }
+
+    .gst-registration-flex-container 
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        padding-left: 6%;
+        padding-right: 6%;
+        justify-content:center;
+    }
+
+    .gst-registration-content 
+    {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .gst-registration-title
+    {
+        text-align: center;
+        font-size: 18px;
+        width:80%;
+        line-height: 22px;
+        letter-spacing: 0.005em;
+        font-weight: 700;
+        margin-left: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .gst-registration-description 
+    {
+        margin-left: 50px;
+        font-size: 15px;
+        width: 80%;
+        line-height: 21px;
+        margin-top: 18px;
+        text-align: left;
+    }
+}
+
+@media  screen and (max-width: 700px) 
+{
+    #gst-registration h2 
+    {
+        text-align: center;
+        font-size: 19px;
+        line-height: 25px;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .gst-registration-content img 
+    {
+        width: 75px;
+    }
+
+    #gst-registration
+    {
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .gst-registration-title
+    {
+        text-align: center;
+        font-size: 15px;
+        width: 200px;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.005em;
+    }
+
+    .gst-registration-description 
+    {
+        margin-bottom: 10px;
+        text-align: left ;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .perks-and-benifits-horizontal-line
+    {
+        display: none;
+    }
+}
+
+@media  only screen and (max-width: 630px)
+{
+   .gst-registration-flex-container 
+   {
+       margin-top: 20px;
+   }
+}
+
+@media  only screen and (max-width: 600px)
+{
+   .gst-registration-flex-container 
+   {
+       margin-top: 20px;
+   } 
+}
+
+@media  only screen and (max-width: 480px)
+{
+    #gst-registration h2::after 
+    {
+        margin: 10px auto 25px;
+    }
+}
+
+@media  only screen and (max-width: 360px)
+{
+    #gst-registration h2::after 
+    {
+        margin: 10px auto 25px;
+    }
+}
+
+
+
+#eligibility-for-gst-registration
+{
+    background-color: #fff;
+    color: #333333;
+    padding-top: 22px;
+}
+
+#eligibility-for-gst-registration h2:after 
+{
+    content: '';
+    background: #FFD712;
+    width: 35px;
+    height: 4px;
+    display: block;
+    margin: 10px auto 2px;
+}
+
+.eligibility-for-gst-registration-content img 
+{
+    width: 95px;
+    border-radius: 100%;
+    background-color: #F4F4F4;
+    border-color: #F4F4F4;
+    color: #1A1A1A;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align:middle;
+}
+
+.perks-and-benifits-horizontal-line
+{
+    display:flex;
+    justify-content:center;
+}
+
+.perks-and-benifits-horizontal-line hr
+{
+    width: 1125px;
+    align-items: center;
+    margin: 79px auto 55px;
+    border-top: 0px solid #ddd;
+}
+
+@media  screen and (min-width: 701px) 
+{
+    #eligibility-for-gst-registration 
+    {
+        padding-bottom: 57px;
+    }
+
+    #eligibility-for-gst-registration h2 
+    {
+        font-size: 15px;
+        line-height: 1.5384616;
+        font-weight: 400;
+        text-align: center;
+        font-size: 27px;
+        line-height: 45px;
+        letter-spacing: 0.025em;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 20px 0;
+        flex-grow: 1;
+    }
+
+    .eligibility-for-gst-registration-flex-container 
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        padding-left: 6%;
+        padding-right: 6%;
+        justify-content:center;
+    }
+
+    .eligibility-for-gst-registration-content 
+    {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .eligibility-for-gst-registration-title
+    {
+        text-align: left;
+        font-size: 16px;
+        width:80%;
+        line-height: 22px;
+        letter-spacing: 0.005em;
+        font-weight: 700;
+        margin-left: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .eligibility-for-gst-registration-description 
+    {
+        margin-left: 50px;
+        font-size: 15px;
+        width: 80%;
+        line-height: 21px;
+        margin-top: 18px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media  screen and (max-width: 700px) 
+{
+    #eligibility-for-gst-registration h2 
+    {
+        text-align: center;
+        font-size: 19px;
+        line-height: 25px;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    }
+
+    .eligibility-for-gst-registration-content img 
+    {
+        width: 75px;
+    }
+
+    #eligibility-for-gst-registration
+    {
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .eligibility-for-gst-registration-title
+    {
+        text-align: center;
+        font-size: 15px;
+        width: 200px;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.005em;
+      
+    }
+
+    .eligibility-for-gst-registration-description 
+    {
+        margin-bottom: 10px;
+        text-align: left ;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .perks-and-benifits-horizontal-line
+    {
+        display: none;
+    }
+}
+
+@media  only screen and (max-width: 630px)
+{
+   .eligibility-for-gst-registration-flex-container 
+   {
+       margin-top: 20px;
+   }
+}
+
+@media  only screen and (max-width: 600px)
+{
+   .eligibility-for-gst-registration-flex-container 
+   {
+       margin-top: 20px;
+   } 
+}
+
+@media  only screen and (max-width: 480px)
+{
+    #eligibility-for-gst-registration h2::after 
+    {
+        margin: 10px auto 25px;
+    }
+}
+
+@media  only screen and (max-width: 360px)
+{
+    #eligibility-for-gst-registration h2::after 
+    {
+        margin: 10px auto 25px;
+    }
+}
