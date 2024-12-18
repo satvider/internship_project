@@ -127,18 +127,47 @@
     background-color: #f4f4f4e2;
 }
 
-.abt-user-img{
-    width: 10%;
-    padding: 20px 20px;
-}
-.abt-user-card h3{
-    font-size: 20px;
+
+.abt-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4e2;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+  
+  .abt-container h1 {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-}
-.abt-user-card p{
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  
+  .r-img {
+    width: 35%;
+    margin-top: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .cards-r h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .cards-r p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-}
-.abt-user-card{
+  }
+  
+  .round-card-container-1 {
     display: flex;
-}
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
