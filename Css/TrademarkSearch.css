@@ -4,17 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.logo-container{
-    height: 10vh;
-    width: 100%;
-    background-color: #F4F4F4;
-}
-.img1{
-    height: 4vh;
-    width: auto;
-    margin:18px;
-    margin-left: 35px;
-}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -178,8 +169,12 @@
     margin-top: -30px;
     font-family: 'Roboto', sans-serif;
   }
-  
-  
+.img1{
+    height: 4vh;
+    width: auto;
+    margin:18px;
+    margin-left: 35px;
+}
 .upper-container{
     background-color: #FFD712;
     width: 100%;
@@ -188,10 +183,14 @@
 }
 .upper-line{
     padding-top: 60px;
-    margin-left: 170px;
+    margin-left: 90px;
     color: #fff;
     font-size: 35px;
     
+}
+.mid-line{
+    margin-left:160px ;
+    color: #fff;
 }
 .first-line{
     padding-top: 4px;
@@ -227,7 +226,7 @@
 }
 .container100{
     height: 20vh;
-    width: 25%;
+    width:25%;
     background-color:#FFD712;
     box-shadow: 1px 1px 1px 1.9px rgb(250, 248, 248);
     margin-top: 15px;
@@ -246,10 +245,10 @@
     height: 6vh;
     width: auto;
     margin: 3px;
-    margin-left: 40px;
+    margin-left: 70px;
 }
 .line1 p{
-    margin-left: 33px;
+    margin-left: 43px;
     color: #fff;
     margin-top: 8px;
 }
@@ -258,25 +257,25 @@
     margin-top: 50px;
 }
 .down-heading{
-    margin-left: 195px;
+    margin-left: 200px;
     padding: 9px;
     color: #fff;
 }
 
 .flying-arrow-container{
-    margin-left: 560px;
+    margin-left: 540px;
     margin-top:-220px;
 }
 .flying-arrow{
     height: 20vh;
-    width:33%;
+    width:35%;
 }
 .form-box{
-    height: 63vh;
+    height: 66vh;
     width: 26%;
     background-color: #edeff2;
     float: right;
-    margin-top: -310px;
+    margin-top: -330px;
     margin-right: 210px;
     border-radius: 5px;
     box-sizing: border-box;
@@ -285,7 +284,7 @@
 }
 .form-heading{
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 .form{
     text-align: center;
@@ -293,7 +292,7 @@
 .enter input{
     width: 80%;
     height: 5vh;
-    margin: 10px;
+    margin: 5px;
     padding: 3px;
     border: none;
     outline: none;
@@ -361,7 +360,7 @@ margin-top: 400px;
 .number{
     float: right;
     margin-right: 240px;
-    margin-top: -350px;
+    margin-top: -390px;
     color: #fff;
     font-size: 18px;
     padding-top: 10px;
@@ -508,11 +507,8 @@ text-align: center;
         margin: 0px 40px;
    
     }
-    .content-block9 p{
-        margin: 30px;
-    }
     .block44{
-        height: 150vh;
+        height: 95vh;
         width: 100%;
         padding: 20px;
         background-color:#F4F4F4;
@@ -584,6 +580,9 @@ text-align: center;
         padding: 30px;
         
     }
+    .inner-li li{
+        margin: 0px;
+    }
     .review10 h1{
         text-align: center;
     }
@@ -611,8 +610,15 @@ text-align: center;
     .star-no{
         color: #fda700;
     }
-
-      
+    .black-container{
+        height: 10vh;
+        width: 100%;
+        background-color: #333333;
+        text-align: center;
+        padding: 30px;
+        color:#fff;
+     }
+     
 .block9{
     height: 105vh;
     padding-top: 20px;
@@ -647,229 +653,29 @@ text-align: center;
   
  }
 
- @media screen and (min-width: 901px) {
-    #footer-mobile-responsive {
-      display: none;
-    }
-  
-    #footer {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: space-around;
-      background-color: #edecec;
-      color: rgb(0, 0, 0);
-      padding-left: 30px;
-      padding-top: 40px;
-      padding-bottom: 50px;
-      margin-top: -3px;
-    }
-  
-    .footer-title::after {
-      margin-top: 10px;
-      content: '';
-      background: white;
-      width: 25px;
-      height: 3px;
-      display: block;
-      margin-left: 7%;
-    }
-  
-    #startupwala-compnay-info-part {
-  
-      width: 15%;
-      text-align: left;
-    }
-  
-    .logo-2 {
-      width: 160px;
-    }
-  
-    .footer-title {
-      padding-bottom: 20px;
-      font-family: 'Poppins', sans-serif;
-      font-size: 20px;
-    }
-  
-    #footer p {
-  
-      font-size: 13px;
-      line-height: 29px;
-    }
-  
-    #startupwala-info-in-footer {
-      line-height: 24px;
-      margin-right: 15px;
-      font-family: 'Roboto', sans-serif;
-    }
-  
-    #google-play-logo {
-      margin-top: 20px;
-    }
-  
-    #footer a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      font-size: 12px;
-      font-family: 'Roboto', sans-serif;
-    }
-  }
-  
-  @media screen and (max-width: 1250px) {
-    #startupwala-compnay-info-part img {
-      width: 130px;
-    }
-  
-  }
-  
-  
-  
-  @media screen and (max-width: 900px) {
-    #footer {
-      display: none;
-    }
-  
-    #footer-mobile-responsive {
-      background-color: #4D4D4D;
-      color: rgb(0, 0, 0);
-      text-align: center;
-      margin-top: -3px;
-    }
-  
-    #startupwala-logo-footer {
-      width: 200px;
-      padding-top: 20px;
-      padding-bottom: 5px;
-    }
-  
-    #footer-mobile-responsive p {
-      padding-bottom: 15px;
-      font-size: 12px;
-    }
-  
-    #google-play-logo {
-      width: 110px;
-    }
-  
-    #socail-img img {
-      width: 15px;
-      height: 15px;
-      margin-right: 10px;
-    }
-  
-    #socail-img {
-      padding-bottom: 20px;
-    }
-  
-    #footer-mobile-responsive a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-    }
-  }
-  
-  
-  
-  @media screen and (min-width: 901px) {
-  
-    #footer-navigation-container-mobile {
-      display: none;
-    }
-  
-    #footer-navigation-container {
-      background-color: #a1a1a1;
-    }
-  
-    #footer-navigation {
-      color: rgb(0, 0, 0);
-      margin-left: 3%;
-      margin-right: 3%;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-  
-    #policy-disclaimer {
-      float: right;
-    }
-  
-    #footer-navigation hr {
-      display: block;
-      margin-top: 0.5em;
-      margin-bottom: 0.65em;
-      border-style: inset;
-      border-width: 0.5px;
-    }
-  
-    #footer-navigation img {
-      width: 15px;
-      height: 15px;
-    }
-  
-    #socail {
-      float: right;
-      padding-right: 15px;
-      font-size: 13px;
-      line-height: 16px;
-    }
-  
-    #socail a {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      margin-right: 10px;
-    }
-  }
-  
-  @media screen and (max-width: 900px) {
-    #footer-navigation-container {
-      display: none;
-    }
-  
-    #footer-navigation-container-mobile {
-      background-color: #333333;
-    }
-  
-    #footer-navigation-mobile {
-      color: white;
-      text-align: center;
-      font-size: 10px;
-      padding-bottom: 15px;
-      padding-top: 15px;
-    }
-  }
-  
-  #footer-lower-menu p {
-    margin-top: -3px;
-    float: left;
-    font-size: 14px;
-    margin-right: 17px;
-    margin-bottom: 3px;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .loginCopy {
-    font-size: 13px;
-    line-height: 16px;
-  }
-  
-  #desktop-footer-bottom {
-    color: rgb(0, 0, 0);
-    padding: 15px 0px;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.005em;
-  }
-  
-  #socail>img {
-    margin: 0 12px;
-  }
-  
-  #footer-navigation a,
-  #footer-navigation-container-mobile a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-  
-  #content-protection-dmca-batch img {
-    margin-left: 10px;
-    display: inline-block;
-    width: 90px;
-    height: 20px;
-  }
+ .side-side-container{
+    height: 40vh;
+    width: 100%;
+    padding: 20px;
+ }
+ .side-side-container h2 {
+    text-align: center;
+    margin: 20px;
+ }
+ .side-inside{
+    display: flex;
+    margin: 20px;
+ }
+ .flex-para{
+    font-size: 20px;
+ }
+ .side-inner-container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .side-container1{
+    margin-top:30px ;
+ }
+ .right-img1{
+    margin: 5px;
+ }
