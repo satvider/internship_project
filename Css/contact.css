@@ -277,7 +277,7 @@
 }
 .google-map{
     height: 50vh;
-    width: 330%;
+    width: 250%;
 }
 @media screen and (min-width: 901px) {
     #footer-mobile-responsive {

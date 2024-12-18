@@ -226,7 +226,7 @@
    
 }
 .container100{
-    height: 20vh;
+    height: 25vh;
     width: 25%;
     background-color:#FFD712;
     box-shadow: 1px 1px 1px 1.9px rgb(250, 248, 248);
@@ -269,19 +269,27 @@
 }
 .flying-arrow{
     height: 20vh;
-    width:33%;
+    width:35%;
 }
 .form-box{
-    height: 63vh;
+    height: 60vh;
     width: 26%;
     background-color: #edeff2;
     float: right;
-    margin-top: -310px;
-    margin-right: 210px;
+    margin-top: -280px;
+    margin-right: 130px;
     border-radius: 5px;
     box-sizing: border-box;
     padding: 10px;
    
+}
+.number{
+    float: right;
+    margin-right: 170px;
+    margin-top: -330px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
 }
 .form-heading{
     text-align: center;
@@ -358,14 +366,7 @@ margin-left: 570px;
 margin-top: 400px;
 
 }
-.number{
-    float: right;
-    margin-right: 240px;
-    margin-top: -350px;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 10px;
-}
+
 .review{
     margin-right:320px;
     float: right;
