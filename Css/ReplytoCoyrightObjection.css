@@ -268,19 +268,28 @@
 }
 .flying-arrow{
     height: 20vh;
-    width:30%;
+    width:35%;
 }
+
 .form-box{
     height: 60vh;
     width: 26%;
     background-color: #edeff2;
     float: right;
-    margin-top: -310px;
-    margin-right: 160px;
+    margin-top: -280px;
+    margin-right: 130px;
     border-radius: 5px;
     box-sizing: border-box;
     padding: 10px;
    
+}
+.number{
+    float: right;
+    margin-right: 170px;
+    margin-top: -330px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 10px;
 }
 .form-heading{
     text-align: center;
@@ -356,14 +365,6 @@ button{
 margin-left: 570px;
 margin-top: 400px;
 
-}
-.number{
-    float: right;
-    margin-right: 200px;
-    margin-top: -350px;
-    color: #fff;
-    font-size: 18px;
-    padding-top: 10px;
 }
 .review{
     margin-right:320px;
