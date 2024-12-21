@@ -1,0 +1,88 @@
+.about-head-container {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(251, 223, 66);
+}
+
+.about-head-img-lamp {
+    width: 45px;
+    margin-left: 21%;
+}
+
+.about-head-content-1 {
+    margin-left: 12%;
+    padding: 30px 0px;
+     font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+
+}
+
+
+.about-head-img {
+    width: 30%;
+    float: right;
+    margin-top: -260px;
+    margin-right: 9%;
+}
+.about-head-container h2{ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-top: -170px;
+}
+.about-head-content-2 { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-left: 43%;
+}
+.career-btn{
+    padding: 17px 60px;
+    margin-top: 70px;
+    margin-left: 11%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 166, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.abt-container {
+    width: 100%;
+    height: 85vh;
+    background-color: #f4f4f4e2;
+    margin-bottom: 30px;
+    margin-top: 60px;
+  }
+  
+
+  
+  .round-card-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+ 
+  .r-img-2 {
+    width: 25%;
+    margin-top: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    justify-content: space-around;
+  }
+  .cards-r-1 h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #bd9e00;
+  }
+  
+  .cards-r p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+   padding: 20px 0px;
+   
+  }
