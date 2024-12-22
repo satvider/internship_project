@@ -142,12 +142,14 @@
 
 .heading-1 {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .hr-1 {
     width: 40px;
     margin-top: -10px;
+    padding-bottom: 30px;
 }
 
 .work-container {
@@ -375,3 +377,78 @@
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
 }
+
+.head2-container {
+    width: 100%;
+    height: 9vh;
+    background-color: rgb(240, 204, 2);
+    margin-bottom: 30px;
+  }
+  
+  .card-1 {
+    margin-left: 3%;
+    margin-top: -50px;
+  
+  }
+  
+  .card1-img {
+    width: 40px;
+    padding-top: 11px;
+    margin-left: 30px;
+  }
+  
+  .card-1 p {
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 80px;
+  
+  }
+  
+  .card-2 {
+    margin-left: 21%;
+    margin-top: -49px;
+  }
+  
+  .card-2 p {
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 80px;
+  
+  }
+  
+  .card-3 {
+    margin-left: 38%;
+    margin-top: -50px;
+  }
+  
+  .card-3 p {
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 80px;
+  
+  }
+  
+  .card-4 {
+    margin-left: 55%;
+    margin-top: -52px;
+  }
+  
+  .card-4 p {
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 80px;
+  
+  }
+  
+  .card-5 {
+    margin-left: 76%;
+    margin-top: -48px;
+  }
+  
+  .card-5 p {
+    font-size: 15px;
+    margin-top: -40px;
+    margin-left: 80px;
+  
+  }
+  
